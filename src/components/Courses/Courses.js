@@ -8,7 +8,7 @@ import Cart from '../Cart/Cart';
 
 
 const Courses = () => {
-    const [courseItems, setCourseItem] = useState(fakedata);
+    const [courseItems] = useState(fakedata);
     const [cart, setCart] = useState([]);
     const handleAddProduct = (product) => {
         console.log('added to cart', product);
