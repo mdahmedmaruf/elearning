@@ -1,0 +1,14 @@
+span.mb-1.text-left.badge.badge-warning {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 18px;
+}
+span.students {
+    float: left;
+    font-size: 15px;
+}
+span.lesson {
+    float: right;
+    font-size: 15px;
+}
